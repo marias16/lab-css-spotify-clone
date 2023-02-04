@@ -53,3 +53,54 @@ h1 {
 
 /*features*/
 
+.features h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    text-decoration: 3px underline #00B172;
+    text-underline-offset: 0.5em;
+}
+.featuresContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 1rem;
+}
+.featureArticle img {
+    width: 100px;
+}
+.featureArticle h3 {
+    color: #00B172;
+}
+
+.featureArticle p {
+    2em;
+}
+
+.featureArticle {
+    
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*kanye*/
+
+.kanye {
+    background-color: #00B172;
+    
+}
+
+.kanyeFlex {
+    display: flex;
+
+}
+
+.logoCenter {
+    width: 100px;
+    position: absolute;
+}
+
+.spotifyAppImage {
+    
+}
