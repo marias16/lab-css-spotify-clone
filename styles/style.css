@@ -1,8 +1,55 @@
-/*
-Colors:
+body {
+    font-family: sans-serif;
+}
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+        top:0px;
+    background-color: white;
+    padding: 10px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navMenu {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    
+}
 
-*/
+.logoHeader {
+    width: 200px;
+    align-items: center;
+}
+
+.hero {
+    width: 100%;
+    background: url(../images/landing.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 600px;
+    display: grid;
+    place-items: center;
+    grid-row-gap: 0;
+    color: white;
+    text-align: center;
+  
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.7rem;
+}
+
+
+/*features*/
+
